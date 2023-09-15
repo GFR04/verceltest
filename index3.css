@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+
+#lobo {
+    margin-left:41%;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+a:hover {
+    color: goldenrod;
+
+}
+
+h1 {
+    color: white;
+    margin-left: 45%;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 9ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1.4s steps(9),
+          blinking 0.5s infinite step-end alternate;
+}
+
+h2 {
+    color: white;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+} 
+    @keyframes blinking {
+        50% {
+            border-color: transparent;
+        }
+
+    }
+
+li {
+        font-family: 'Courier New', Courier, monospace;
+        color:white;
+        font-size: 18px;
+         
+    }
+
+.wolf {
+    text-align: center;
+}

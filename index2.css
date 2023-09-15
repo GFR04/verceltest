@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+}
+
+#lobo {
+    margin-left:41%;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#bot:hover{
+    color: goldenrod;
+
+}
+
+#bot2:hover{
+    color: goldenrod;
+
+}
+
+#bot3:hover{
+    color: goldenrod;
+
+}
+
+h1{
+    color: white;
+    margin-left: 43%;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 13ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1.5s steps(13),
+          blinking 0.5s infinite step-end alternate;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+} 
+    @keyframes blinking {
+        50% {
+            border-color: transparent;
+        }
+
+    }
+
+h2 {
+    font-family: monospace;
+    color:white;
+    padding-right: 10px;
+}
+
+li {
+    font-family: monospace;
+    color:white;
+    
+     
+}
+
+ul {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 15px;
+    bottom: 30px
+}
+
+.Participantes {
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    height: 171px;
+    position: relative;
+    bottom: 30px;
+    margin-left: 170px;
+}
+
+.Objetivos {
+    display: inline-block;
+    border: 2px solid white;
+    position: relative;
+    padding-right: 8px;
+    box-sizing: border-box;
+       
+}
+
+.Comportamentos {
+    display: inline-block;
+    border: 2px solid white;
+    position: relative;
+    padding-right: 8px;
+    box-sizing: border-box;
+       
+}
+
+.Plataforma {
+    display: inline-block;
+    border: 2px solid white;
+    position: relative;
+    padding-right: 40px;
+    box-sizing: border-box;
+       
+}
+
+.Mecanica {
+    display: inline-block;
+    border: 2px solid white;
+    position: relative;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.Dinamica {
+    display: inline-block;
+    border: 2px solid white;
+    position: relative;
+    padding-right: 53px;
+    box-sizing: border-box;
+    margin-left: 170px;
+}
+
+.Componentes {
+    display: inline-block;
+    border: 2px solid white;
+    position: relative;
+    padding-right: 36px;
+    box-sizing: border-box;
+}
+
+.Estetica {
+    display: inline-block;
+    border: 2px solid white;
+    position: relative;
+    padding-right: 73px;
+    box-sizing: border-box;
+}
+
+
+.Beneficios {
+    display: inline-block;
+    border: 2px solid white;
+    position: relative;
+    padding-right: 34px;
+    box-sizing: border-box;
+}
+
+.Recursos {
+    display: inline-block;
+    border: 2px solid white;
+    position: relative;
+    padding-right: 52px;
+    box-sizing: border-box;
+}

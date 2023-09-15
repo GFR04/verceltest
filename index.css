@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+a:hover{
+    color: goldenrod;
+
+}
+
+h1 {
+    color: white;
+    margin-left: 40%;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 17ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1.4s steps(18),
+          blinking 0.5s infinite step-end alternate;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+} 
+    @keyframes blinking {
+        50% {
+            border-color: transparent;
+        }
+
+    }
+
+h2 {
+    color: white;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+}
+
+
+
+#lobo {
+    margin-left:41%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    
+}
+
+img {
+    border-radius: 5px;
+}
+
+.image {
+    display: flex;
+    margin-left: 15px;
+}
+
+.legenda {
+    font-size: 24px;
+}
+li {
+    color: white;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+
+}
+
+
+
+

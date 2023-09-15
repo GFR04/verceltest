@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+#lobo {
+    margin-left:41%;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+a:hover {
+    color: goldenrod;
+
+}
+
+h1 {
+    color: white;
+    margin-left: 43%;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 16ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1.6s steps(17),
+          blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+} 
+    @keyframes blinking {
+        50% {
+            border-color: transparent;
+        }
+
+    }
+
+.center {
+    text-align: center;
+}
